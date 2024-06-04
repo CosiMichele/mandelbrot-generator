@@ -1,8 +1,8 @@
 # Mendelbrot CPU Stress Test
 
-![header](https://upload.wikimedia.org/wikipedia/commons/2/21/Mandel_zoom_00_mandelbrot_set.jpg)
+![header](https://platosrealm.wordpress.com/wp-content/uploads/2018/09/mandel_zoom_08_satellite_antenna.jpg?w=1400)
 
-The Mandelbrot set is a famous fractal named after the mathematician Benoît B. Mandelbrot. It's a complex and infinitely detailed shape that is defined by a simple mathematical formula. To create the Mandelbrot set, you take a complex number $c$ and repeatedly apply the function $z=z^2+c$. 
+The **Mandelbrot set** is a famous fractal named after the mathematician Benoît B. Mandelbrot. It's a complex and infinitely detailed shape that is defined by a simple mathematical formula. To create the Mandelbrot set, you take a complex number $c$ and repeatedly apply the function $z=z^2+c$. 
 
 If the result stays bounded (doesn't go to infinity), the point $c$ is part of the Mandelbrot set and is typically colored black. If it doesn't stay bounded, the point is not in the set and is colored differently, usually based on how quickly it escapes to infinity. 
 
@@ -28,3 +28,5 @@ In this repository, you will find 4 scripts:
 - `mandelbrot_video.slurm`: SLURM script to execute `mandelbrot_video.py` on the HPC (64 cores, 8GM RAM)
 
 The idea of these scripts it to stress test the CPU of your machines and showing how much quicker the HPC is at complex mathematical processes. Feel free to use it on your computer and/or HPC!
+
+![footer](https://upload.wikimedia.org/wikipedia/commons/2/21/Mandel_zoom_00_mandelbrot_set.jpg)
