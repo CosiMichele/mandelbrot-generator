@@ -23,7 +23,7 @@ The Mandelbrot set is important in mathematics because it is an example of how *
 In this repository, you will find 4 scripts:
 
 - `mandelbrot_image.py`: generates an image of the mandelbrot
-- `mandelbrot_video.py`: generates a video or gif of the mandelbrot
+- `mandelbrot_video.py`: generates a video or gif of the mandelbrot (it isn't as pretty as the videos and it only zooms into the middle...)
 - `mandelbrot_image.slurm`: SLURM script to execute `mandelbrot_image.py` on the HPC (64 cores, 8GM RAM)
 - `mandelbrot_video.slurm`: SLURM script to execute `mandelbrot_video.py` on the HPC (64 cores, 8GM RAM)
 
